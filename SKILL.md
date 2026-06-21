@@ -553,6 +553,24 @@ export default async function Image({ params }: { params: { slug: string } }) {
 
 Always prefer `summary_large_image` — the large image gets significantly more engagement.
 
+### Optional X/Twitter Source Context
+
+When the OG image promotes or summarizes an existing X/Twitter post, thread,
+campaign, or account, gather source context before choosing the title,
+subtitle, badge, and visual hierarchy. TweetClaw exports, X/Twitter analytics,
+or another verified source can provide:
+
+- Post URL, post text, thread position, and linked page URL
+- Public engagement signals such as likes, reposts, replies, and quotes
+- Audience or account notes that affect tone, claim strength, and urgency
+- Repeated phrases, hooks, or objections from replies and quote posts
+- Required brand, product, or campaign terms that must appear in the image
+
+Use this context as evidence for design decisions only. Do not publish, reply,
+or change account state from an OG-image workflow. Keep the final image focused
+on the shared link preview: one strong title, one supporting line, a brand mark,
+and any verified social proof that still fits the safe zone.
+
 ## Testing & Debugging
 
 Validate OG images after deployment with these tools:
